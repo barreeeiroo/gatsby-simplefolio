@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Computer Science student | Software Engineer', // e.g: 'Name | Developer'
+  title: 'Diego Barreiro | Student', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Diego Barreiro', // e.g: Welcome to my website
+  description: 'My personal website', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -60,7 +60,7 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: 'Would you like to reach me? Just hit the button!',
-  btn: 'Send email',
+  btn: 'Send an email',
   email: 'diego@barreiro.xyz',
 };
 
