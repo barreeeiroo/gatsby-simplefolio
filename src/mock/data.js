@@ -51,8 +51,13 @@ export const projectsData = [
     id: nanoid(),
     img: 'civilDefense.png',
     title: 'Civil Defense',
-    info: '',
-    info2: '',
+    info:
+      "I've developed a landing website to enhance the image of Civil Defense in my city, and an internal " +
+      'resource management platform. It has helped to digitalize the operations and modernize the system (which was ' +
+      'made all in papers).',
+    info2:
+      'I became part of Civil Defense back in 2017. As I was coursing International Baccalaureate, I had to do ' +
+      'some volunteering to get the diploma, so I chose to do it in Civil Defense.',
     url: 'https://proteccioncivil.sdc.gal',
   },
 ];
