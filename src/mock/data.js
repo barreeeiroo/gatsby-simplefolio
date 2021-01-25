@@ -2,64 +2,59 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Computer Science student | Software Engineer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Diego Barreiro', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hey, my name is',
+  name: 'Diego Barreiro',
+  subtitle: "I'm a Computer Science student",
+  cta: 'Read more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  img: 'me.jpg',
+  paragraphOne:
+    '19-year-old student with over 5 years of solid programming experience. Curious, lead-minded, ' +
+    'always willing to learn, and open to new technologies. Started coding as a hobby, now managing a US software ' +
+    'company with more than 1.5M daily unique active users.',
+  paragraphTwo:
+    'My focus is placed on developing highly efficient problem-solving software, real-world solutions. ' +
+    'As I had to be self-taught until university because of the lack of IT support in my school, I believe ' +
+    'technology literacy is a human right.',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://resume.io/r/NhLAmgcEu', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'kodular.webp',
+    title: 'Kodular',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.kodular.io',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'civilDefense.png',
+    title: 'Civil Defense',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://proteccioncivil.sdc.gal',
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Would you like to reach me? Just hit the button!',
+  btn: 'Send email',
+  email: 'diego@barreiro.xyz',
 };
 
 // FOOTER DATA
@@ -67,28 +62,28 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'github',
+      url: 'https://github.com/barreeeiroo',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://linkedin.com/in/barreeeiroo',
     },
     {
       id: nanoid(),
-      name: 'github',
-      url: '',
+      name: 'twitter',
+      url: 'https://twitter.com/barreeeiroo',
+    },
+    {
+      id: nanoid(),
+      name: 'instagram',
+      url: 'https://instagram.com/barreeeiroo',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
