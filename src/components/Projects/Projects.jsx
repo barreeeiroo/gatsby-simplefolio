@@ -27,12 +27,12 @@ const Projects = () => {
       <Container>
         <div className="project-wrapper">
           <Title title="Projects" />
-          {projects.map((project) => {
+          {projects.map((project, key) => {
             const { title, info, info2, url, repo, img, id } = project;
 
             return (
               <Row key={id}>
-                <Col lg={4} sm={12}>
+                <Col lg={4} sm={12} order={isDesktop && key % 2 !== 0 ? 2 : 1}>
                   <Fade
                     left={isDesktop}
                     bottom={isMobile}
@@ -71,9 +71,9 @@ const Projects = () => {
                     </div>
                   </Fade>
                 </Col>
-                <Col lg={8} sm={12}>
+                <Col lg={8} sm={12} order={isDesktop && key % 2 !== 0 ? 1 : 2}>
                   <Fade
-                    right={isDesktop}
+                    left={isDesktop}
                     bottom={isMobile}
                     duration={1000}
                     delay={1000}
