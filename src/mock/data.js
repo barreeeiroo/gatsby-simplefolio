@@ -26,7 +26,10 @@ export const aboutData = {
     'My focus is placed on developing highly efficient problem-solving software, real-world solutions. ' +
     'As I had to be self-taught until university because of the lack of IT support in my school, I believe ' +
     'technology literacy is a human right.',
-  paragraphThree: '',
+  paragraphThree:
+    'In my free time, I love coding in several part-time projects and helping people outside the tech ' +
+    'world. For example, I volunteer at Civil Defense in my city, where I was able to contribute by creating an ' +
+    'internal platform for resources management.',
   resume: 'https://resume.io/r/NhLAmgcEu', // if no resume, the button will not show up
 };
 
