@@ -39,8 +39,12 @@ export const projectsData = [
     id: nanoid(),
     img: 'kodular.webp',
     title: 'Kodular',
-    info: '',
-    info2: '',
+    info:
+      'Kodular is an online platform which enables everyone to create any kind of mobile app without the need ' +
+      'to know how to code. Just by dragging and dropping a few components and blocks, anything can be created.',
+    info2:
+      'In Summer 2017, this project started as some kind of part-time project made by high-school students. It ' +
+      'kept growing and became a full company in 2019. More than 1.5M apps have been created since then.',
     url: 'https://www.kodular.io',
   },
   {
